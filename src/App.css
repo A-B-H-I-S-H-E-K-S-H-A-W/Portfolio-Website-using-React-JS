@@ -36,3 +36,208 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-body {
+  background-color: black;
+  color: white;
+}
+
+.navbar-main {
+  border-bottom: 1px solid grey;
+  padding: 24px 0;
+}
+
+.nav-links li {
+  font-size: 16px;
+}
+
+.nav-icons li i {
+  font-size: 24px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 10% 0 0 5%;
+}
+
+.hero-heading {
+  font-size: 55px;
+  margin-bottom: 5%;
+}
+
+.hero-text {
+  color: #9c9c9c;
+  width: 86%;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 15px 50px;
+}
+
+.work {
+  padding: 6% 0 0 5%;
+  color: #9c9c9c;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.hero-image img {
+  height: 400px;
+}
+
+.worked {
+  padding: 0 2% 5% 5%;
+  gap: 4%;
+}
+
+.case-body {
+  background-color: white;
+  color: black;
+  margin-top: 8%;
+}
+
+.head {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-text {
+  text-align: center;
+  color: #9c9c9c;
+  text-wrap: wrap;
+  padding: 0 5%;
+}
+
+.case-main {
+  padding: 6%;
+}
+
+.case-section {
+  padding: 4%;
+}
+
+.case-section span {
+  background-color: #fff6e9;
+  color: #ffa217;
+  padding: 4px;
+  border-radius: 25px;
+}
+
+.case-section h3 {
+  margin: 6% 0;
+  font-weight: bold;
+}
+
+.case-section p {
+  color: #9c9c9c;
+}
+
+.button-main {
+  margin-top: 20px;
+  color: white;
+  background-color: #ffa217;
+}
+
+.case-images {
+  padding: 2% 0;
+}
+
+.case-images img {
+  width: 500px;
+  height: 100%;
+}
+
+.button-one {
+  margin-top: 20px;
+  color: white;
+}
+
+.button-two {
+  margin-top: 20px;
+  color: white;
+}
+
+.testimonials {
+  background-color: black;
+  color: white;
+  padding: 8% 4%;
+}
+
+.head h2 {
+  font-weight: bolder;
+}
+
+.card-main {
+  background-color: black;
+  border: 0.5px solid white;
+  color: white;
+  padding: 8%;
+  margin: 5% 0;
+}
+
+.card-main p {
+  color: #9c9c9c;
+}
+
+.card-low {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 8px;
+}
+
+.recent-work {
+  background-color: white;
+  color: black;
+  padding: 8% 4%;
+}
+
+.test {
+  margin-top: 5%;
+}
+
+.card-wid {
+  margin-bottom: 20px;
+}
+
+.get-in-touch {
+  background-color: black;
+  color: white;
+  padding: 8% 4%;
+}
+
+.form {
+  width: 380px;
+  margin: 4% auto;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.footer a:hover {
+  color: #ffa217;
+}
